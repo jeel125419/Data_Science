@@ -1,9 +1,12 @@
 import streamlit as st
 import joblib
 import pandas as pd
+from pathlib import Path
 
-model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
+BASE_DIR = Path(__file__).resolve().parent
+
+model = joblib.load(BASE_DIR / "model.pkl")
+scaler = joblib.load(BASE_DIR / "scaler.pkl")
 
 st.title("🎓 Student Performance Predictor")
 
