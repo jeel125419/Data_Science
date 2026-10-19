@@ -4,7 +4,7 @@ A Machine Learning web application built with Python and Streamlit that predicts
 
 ## Live Demo
 
-🔗 **Try the app:** [Your Streamlit App Link](https://tkue3t24d3dtet7vapbccv.streamlit.app/)
+🔗 **Try the app:** [Live Link](https://tkue3t24d3dtet7vapbccv.streamlit.app/)
 
 ## Project Overview
 
@@ -50,5 +50,5 @@ The model and scaler are loaded from `model.pkl` and `scaler.pkl`.
 
 **Jeel Katua**
 
-- GitHub: [Your GitHub Profile](https://github.com/jeel125419)
+- GitHub: [jeel125419](https://github.com/jeel125419)
 
