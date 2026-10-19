@@ -7,8 +7,11 @@ from sklearn.pipeline import Pipeline
 
 st.set_page_config(page_title="Old Phone Price Prediction", page_icon="📱", layout="centered")
 
-MODEL_PATH = "model.pkl"
-CATALOG_PATH = "brand_model_catalog.csv" 
+APP_DIR = Path(__file__).resolve().parent
+
+MODEL_PATH = APP_DIR / "model.pkl"
+CATALOG_PATH = APP_DIR / "brand_model_catalog.csv"
+
 CATALOG_BRAND_COLUMN = "brand"
 CATALOG_MODEL_COLUMN = "model"
 
